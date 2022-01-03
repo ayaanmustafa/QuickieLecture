@@ -14,7 +14,7 @@ def kw(doc):
         kw.write(str(keywords))
     with open('keywordsphrases.txt', "w") as kp:
         keywphrases = kw_model.extract_keywords(doc,keyphrase_ngram_range=(1, 2), stop_words=None)
-        kw.write(str(keywphrases))
+        kp.write(str(keywphrases))
     
 
 summed = ""
