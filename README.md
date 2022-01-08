@@ -1,5 +1,5 @@
 # QuickieLecture
-Submission for StemWarriorHacks (Winter) 
+
 
 Steps to use:
 1) Download and extract the code
